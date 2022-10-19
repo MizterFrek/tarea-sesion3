@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Página de inicio de la web de Escuela">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;700&display=swap" rel="stylesheet"> 
+    <title>Intranet de la Escuela</title>
+
+    <style>
+        * {
+          box-sizing: border-box;
+        }
+        
+        body {
+          font-family: 'Roboto Mono', Helvetica, sans-serif;
+        }
+        
+        /* Style the header */
+        header {
+          background-color: red;
+          padding: 30px;
+          text-align: center;
+          font-size: 35px;
+          color: white;
+        }
+        header h1 {
+            margin-top: 5px;
+            font-size:larger;
+            font-weight: 700;
+        }
+
+        header div a {
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: 700;
+            font-size: medium;
+            color: white;
+        }
+        
+        /* Create two columns/boxes that floats next to each other */
+        nav {
+          float: right;
+          width: 20%;
+          height: 300px; /* only for demonstration, should be removed */
+          background: rgb(124, 180, 223);
+          padding: 20px;
+        }
+        
+        /* Style the list inside the menu */
+        nav ul {
+          list-style-type: none;
+          padding: 0;
+        }
+        nav ul a {
+            text-decoration: none;
+            color: black;
+            text-transform: uppercase;
+        }
+        
+        article {
+          float: left;
+          padding: 20px;
+          width: 100%;
+          background-color: #f1f1f1;
+          height: 300px; /* only for demonstration, should be removed */
+        }
+        
+        /* Clear floats after the columns */
+        section::after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+        
+        /* Style the footer */
+        footer {
+          background-color: rgb(1, 40, 74);
+          padding: 10px;
+          text-align: center;
+          color: white;
+        }
+        
+        /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+        @media (max-width: 600px) {
+          nav, article {
+            width: 100%;
+            height: auto;
+          }
+        }
+        .titleRan{
+          text-align: center;
+        }
+        </style>
+
+</head>
+<body> 
+    <header>
+        <img src="img/logo.png" alt="LogoImg" width="250">
+        <h1>Bienvenido a nuestra Página web</h1>
+        <div>
+            <a href="index.html">Inicio</a>
+            <span>|</span>
+            <a href="integrantes.html">Integrantes</a>
+            <span>|</span>
+            <a href="personajes.html">Personajes</a>
+            <span>|</span>
+            <a href="fases-peliculas.html">Fases Peliculas</a>
+            <span>|</span>
+            <a href="ranking.html">Ranking</a>
+        </div>
+    </header>
+     
+    <section>
+        
+        <article>
+          <div class="titleRan">
+            <h2>Ranking</h2>
+          </div>
+          <div>
+            <div>
+              <h3>Ranking de las películas de Marvel mejor valoradas por la crítica de la historia</h3>
+              <span>A fecha, el largometraje perteneciente al Universo Cinematográfico de Marvel mejor valorado por la crítica es Spider-Man: sin camino a casa, estrenada en los cines en 2021 y ganadora de tres premios Oscar, con una valoración del 88%. Iron Man y Vengadores: Endagme se situan en segunda y tercera posición respectivamnete. Por su parte, Thor: el mundo oscuro es, hasta el momento, el film de la franquicia con una peor valoraación por parte de los críticos, si bien logra mantenerse por encima del 50%t</span>
+            </div>            
+          </div>
+        </article>
+    </section>
+      
+    <footer>
+        <p>Derechos Reservados </p>
+    </footer>
+
+</html>

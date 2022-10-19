@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="es">
+ 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Página de inicio de la web de Escuela">
+ 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <title> Personajes Marvel </title>
+ 
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+ 
+    body {
+      font-family: 'Roboto Mono', Helvetica, sans-serif;
+    }
+ 
+    /* Style the header */
+    header {
+      background-color: red;
+      padding: 30px;
+      text-align: center;
+      font-size: 35px;
+      color: white;
+    }
+ 
+    header h1 {
+      margin-top: 5px;
+      font-size: larger;
+      font-weight: 700;
+    }
+ 
+    header div a {
+      text-decoration: none;
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: medium;
+      color: white;
+    }
+ 
+    /* Create two columns/boxes that floats next to each other */
+    nav {
+      float: right;
+      width: 20%;
+      height: 300px;
+      /* only for demonstration, should be removed */
+      background: rgb(124, 180, 223);
+      padding: 20px;
+    }
+ 
+    /* Style the list inside the menu */
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+    }
+ 
+    nav ul a {
+      text-decoration: none;
+      color: black;
+      text-transform: uppercase;
+    }
+ 
+    article {
+      float: left;
+      padding: 20px;
+      width: 80%;
+      background-color: #f1f1f1;
+      height: 300px;
+      /* only for demonstration, should be removed */
+    }
+ 
+    /* Clear floats after the columns */
+    section::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+ 
+    /* Style the footer */
+    footer {
+      background-color: rgb(1, 40, 74);
+      padding: 10px;
+      text-align: center;
+      color: white;
+    }
+ 
+    /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+    @media (max-width: 600px) {
+ 
+      nav,
+      article {
+        width: 100%;
+        height: auto;
+      }
+    }
+  </style>
+ 
+</head>
+ 
+<body>
+  <header>
+    <img src="img/logo.png" alt="LogoImg" width="250">
+    <h1> Personajes Marvel </h1>
+    <div>
+      <a href="index.html">Inicio</a>
+      <span>|</span>
+      <a href="integrantes.html">Integrantes</a>
+      <span>|</span>
+      <a href="personajes.html">Personajes</a>
+      <span>|</span>
+      <a href="fases-peliculas.html">Fases Peliculas</a>
+      <span>|</span>
+      <a href="ranking.html">Ranking</a>
+    </div>
+  </header>
+ 
+  <section>
+ 
+    <h2> 1. Capitán América. </h2>
+ 
+    <img src="img/1 Capi America.jpg">
+ 
+    <p>
+      Cuando se crea el primer Súper Soldado de América, hay que tener en cuenta, ante todo, el carácter del hombre. El
+      valor, el honor y la honestidad son primordiales, y por eso Steve Rogers, un matón escuálido y de baja estatura,
+      era
+      la elección correcta para convertirse en el pionero (y, cómo resultaría, el único) espécimen de suero perfecto del
+      mundo. El mundo seguramente llora la pérdida de Iron Man, pero ¿qué pasa con el gigantesco vacío que ha dejado la
+      jubilación del Capitán América? Rogers salvó al mundo tanto de los nazis como de HYDRA en los años 40 y luego,
+      tras
+      ser congelado durante décadas, volvió para ayudar a detener las incursiones globales de todos los bandos y frentes
+      como miembro de los Vengadores, actuando siempre como la conciencia obstinada del equipo. Lo que significaba
+      querer
+      hacer lo correcto, todo el tiempo, incluso si eso significaba perder. Líder nato, mejor amigo devoto y héroe sin
+      parangón, Capi es el dechado de virtudes en el corazón del UCM.
+    </p>
+ 
+    <h2> 2. Iron Man. </h2>
+ 
+    <img src="img/2 Iron Man.jpg">
+   
+    <p>
+      No hay Vengadores sin Iron Man, y no hay Iron Man sin un Tony Stark traumatizado y aterrorizado que cambia de
+      opinión y se transforma de un arrogante traficante de armas mujeriego a un (todavía arrogante) héroe acorazado que
+      ayuda a Nick Fury a encabezar, y moldear, a los Vengadores. La historia de Tony cerró fuertemente el círculo
+      cuando dio su vida para hacer desaparecer a Thanos y a todo su ejército utilizando el Guantelete del Infinito,
+      cumpliendo la promesa que había hecho de, esencialmente, crear (o, en este caso, convertirse en) una "armadura
+      alrededor del mundo." Y sólo desde el punto de vista de la franquicia, fue la actuación perfecta de Robert Downey,
+      Jr. como Tony, y el proyecto de comedia-drama de Jon Favreau para la primera película de Iron Man, lo que sentó
+      las bases para todas las películas del UCM que siguieron.
+    </p>
+ 
+    <h2> 3. Thor. </h2>
+ 
+    <img src="img/3 Thor.jpg">
+ 
+    <p>
+      Emocional, y a menudo temperamental, Thor seguiría ayudando en la Tierra, derrotando a elfos oscuros, soldados de
+      HYDRA, zánganos de Ultrón y más, mientras intentaba labrarse su propio camino y destino. Uno que no implique
+      gobernar Asgard. Ya sea suspirando por su amor perdido, Jane Foster, discutiendo con Loki, metiéndose en peleas
+      amistosas con Hulk o comiendo una tonelada de carbohidratos, Thor es el miembro más divertido de los Vengadores.
+    </p>
+ 
+    <h2> 4. Spider Man. </h2>
+ 
+    <img src="img/4 Spidi.jpg">
+ 
+    <p>
+      El talentoso estudiante de secundaria Peter Parker apenas había salido de Queens antes de ser reclutado por Tony
+      Stark para ayudar a impedir que el Capitán América y sus aliados protegieran al fugitivo Bucky Barnes. Y con ello,
+      Parker, y su relación de hijo sustituto con Tony, se convirtió en el corazón de la Fase 3 del UCM. El joven Parker
+      ha derrotado al Buitre, a Shocker, al descontento técnico de Industrias Stark, Mysterio, y a sus propios miedos a
+      la hora de pedir una cita a MJ. Pero fue la muerte de Parker durante El Chasquido lo que más afectó a Tony, y
+      acabó convenciendo al Vengador Blindado para que se uniera a los demás para recuperar las Piedras. El optimismo de
+      Parker y su afán por hacer el bien era exactamente lo que el UCM necesitaba, y exactamente lo que los Vengadores
+      necesitaban para deshacer todo el daño de Thanos.
+      Recientemente, a Peter se le recordó el lema de gran poder/gran responsabilidad que es el núcleo de su carácter
+      cuando perdió a su tía May y renunció a todos sus amigos por el bien de los que le rodeaban.
+    </p>
+ 
+    <h2> 5. Black Widow. </h2>
+ 
+    <img src="img/5 Black Widow.jpg">
+ 
+    <p>
+      Natalia "Natasha" Romanoff, que en su día fue una agente enemiga del KGB que se entrenó para ser una asesina
+      experta a una edad temprana como parte del Programa de la Viuda Negra, se encontró con que renegaba de su antigua
+      vida (y de su país) y se unía a SHIELD a instancias y con el estímulo de Clint Barton. Como principal agente
+      encubierto de Nick Fury, Romanoff ayudó a vigilar a Tony Stark y finalmente se unió a las filas de los Vengadores
+      cuando Loki lanzó una invasión alienígena en Nueva York. Buscando la redención por sus fechorías pasadas, y
+      eventualmente sacrificando su vida para ayudar a traer de vuelta a todos los perdidos en la diezma de Thanos,
+      Romanoff era devota de sus amigos, dedicada a sus misiones, y mortal.
+    </p>
+ 
+    <h2> 6. Black Panther. </h2>
+ 
+    <img src="img/6 Black Panter.jpg">
+ 
+    <p>
+      Tras la muerte de su padre, el rey T'Chaka, a manos del terrorista Helmut Zemo, el príncipe T'Challa se vio
+      obligado no sólo a asumir el cargo de gobernante de Wakanda, sino también a asumir el manto de Black Panther, el
+      protector sobrehumano de su pueblo. Con una fuerza y velocidad mejoradas que le han sido otorgadas por la Hierba
+      de Corazón de su tierra y un traje de alta tecnología hecho de vibranium, T'Challa es a la vez una fuerza
+      irresistible y un objeto indestructible, siempre dispuesto a defender a su país contra contrabandistas
+      despiadados, insurgentes violentos y ejércitos alienígenas. Cruzado compasivo, noble monarca, el legado de
+      T'Challa nunca será olvidado. Tampoco la vida y la carrera del difunto Chadwick Boseman.
+    </p>
+ 
+    <h2> 7. Hulk. </h2>
+ 
+    <img src="img/7 Hulk.jpg">
+ 
+    <p>
+      Puede que esas palabras hicieron que Loki se burlara en su momento, pero el Dios de la Travesura no sonreía unos
+      minutos después cuando se encontró con su cuerpo hecho papilla por el alter-ego "siempre enfadado" del científico
+      Bruce Banner, Hulk. Por supuesto, el desquiciado goliath verde de Banner, resultado de una sobrecarga de radiación
+      gamma, a veces puede funcionar en contra de los Vengadores, ya que rara vez hay un método fiable a mano para
+      detener a Hulk una vez que se pone en modo de ataque (a menos que seas Viuda Negra). Pero no se puede discutir que
+      Banner, como genio y como bruto, es una auténtica doble amenaza. Y ahora que ha fusionado por completo sus dos
+      facetas en una sola forma, es casi imparable.
+    </p>
+ 
+ 
+  </section>
+ 
+  <footer>
+    <p>Derechos Reservados </p>
+  </footer>
+ 
+</html>
